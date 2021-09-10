@@ -53,20 +53,20 @@ local doom = {
     -- "css",             -- CSS support
     -- "javascript",      -- JavaScript support
     -- "typescript",      -- TypeScript support
-    -- "bash",            -- The terminal gods language
-    -- "python +lsp",     -- Python support + lsp
+    "bash",               -- The terminal gods language
+    "python +lsp",        -- Python support + lsp
     -- "ruby",            -- Look ma, I love the gems!
-    "lua",                -- Support for our gods language
+    "lua +lsp",           -- Support for our gods language
     -- "elixir",          -- Build scalable and maintainable software
     -- "haskell",         -- Because Functional programming is fun, isn't it?
 
-    -- "rust +lsp",       -- Let's get rusty!
-    -- "go",              -- Hello, gopher
+    "rust +lsp",          -- Let's get rusty!
+    "go +lsp",            -- Hello, gopher
     -- "cpp",             -- C++ support
     -- "java",            -- Java support
 
-    -- "config",          -- Configuration files (JSON, YAML, TOML)
-    -- "dockerfile",      -- Do you like containers, right?
+    "config",             -- Configuration files (JSON, YAML, TOML)
+    "dockerfile +lsp",    -- Do you like containers, right?
   },
   utilities = {
     -- "suda",            -- Write and read files without sudo permissions
