@@ -14,7 +14,7 @@
 local doom = {
   ui = {
     "dashboard",          -- Start screen
-    -- "doom-themes",     -- Additional doom emacs' colorschemes
+    "doom-themes",     -- Additional doom emacs' colorschemes
     "statusline",         -- Statusline
     "tabline",            -- Tabline, shows your buffers list at top
     -- "zen",             -- Distraction free environment

@@ -20,7 +20,7 @@ local doom = {
   -- false : Disable format on save
   -- true  : Enable format on save
   -- @default = false
-  fmt_on_save = false,
+  fmt_on_save = true,
 
   -- Disable Vim macros
   -- false : Enable Vim macros
@@ -100,7 +100,7 @@ local doom = {
   -- false : disables current line highlight
   -- true  : enables current line highlight
   -- @default = true
-  line_highlight = true,
+  line_highlight = false,
 
   -- Automatically split right
   -- false : splits right (vertically)
@@ -177,7 +177,7 @@ local doom = {
   -- Auto install plugins on launch, useful if you don't want to run
   -- PackerInstall every time you add a new plugin
   -- @default = true
-  auto_install_plugins = true,
+  auto_install_plugins = false,
 
   -- Disable dashboard status line (does not work perfectly)
   -- false : disables dashboard status line
@@ -257,7 +257,7 @@ local doom = {
 
   -- Default colorscheme
   -- @default = doom-one
-  colorscheme = "doom-one",
+  colorscheme = "dracula",
 
   -- Background color
   -- @default = dark
