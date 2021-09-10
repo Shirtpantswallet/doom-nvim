@@ -340,7 +340,7 @@ packer.startup(function(use)
   -- provides the missing `:LspInstall` for `nvim-lspconfig`.
   use({
     "kabouzeid/nvim-lspinstall",
-    config = require("doom.modules.config.doom-lspinstall"),
+    -- config = require("doom.modules.config.doom-lspinstall"),
     disable = disabled_lsp,
     after = "nvim-lspconfig",
   })
